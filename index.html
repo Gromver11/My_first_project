@@ -9,25 +9,63 @@
 	<body>
 		<header class="main-header">
 			<div class="container">
-			<nav class="main-navigation">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Не особо</a></li>
-					<li><a href="#">Вообще нет</a></li>
-					<li><a href="#">Добавление товара</a></li>
-				</ul>
-			</nav>
-			<form action="#" method="get">
+				<nav class="main-menu">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Не особо</a></li>
+						<li><a href="#">Вообще нет</a></li>
+						<li><a href="#">Добавление товара</a></li>
+					</ul>
+				</nav>
+				<form action="#" method="get">
 
-			<input type="text" name="search" value="Поиск">	
+					<input type="text" name="search" value="Поиск">	
 
-			</form>
+				</form>
+			</div>
 		</header>
-		
-
-		
-		
-		
-		
+		<main class="container">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<div class="breadcrumbs">
+				<a href="#">Главная</a>
+				<a href="#">Сферические товары</a>
+			</div>
+			<section>
+				<h3>Добавление сферического товара</h3>
+				<form action="#" method="get">
+					<label> Наименование <input type="text" name="product_name"></label> 
+					<br><br>
+					<label> Код товара <input type="text" name="product_code"></label> 
+					<br><br>
+					<label for="category-id"> Катерия товара </label> 
+					<select type="text" name="product_category" id="category-id"> 
+						<option>Товары сферические вакуумные</option>
+					</select> 
+					<br><br>
+					<input type="checkbox" name="popular_product" id="popular-id" checked>
+					<label for="popular-id"> Популярный товар </label>
+					<br><br>
+					<label for="description-id"> 
+						Описание товара
+					</label> 
+					<textarea name="product_description" id="description-id"></textarea> 
+					<br><br>
+					<button class="btn" type="submit">Добавить</button>
+				</form>	
+			</section>	
+		</main>
+		<footer class="page-footer">
+			<div class="container">
+				<section class="info">
+					<a href="#">Поиск</a>
+					<a href="#">Карта сайта</a>
+				</section>
+				<section class="copyright">
+				 © Homs & Hooves,2014
+				</section>
+			</div>
+		</footer>		
 	</body>
 </html>
