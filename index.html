@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="container">
+			<div class="container clearfix">
 				<nav class="main-menu">
 					<ul>
 						<li><a href="#">Главная</a></li>
@@ -17,14 +17,16 @@
 						<li><a href="#">Добавление товара</a></li>
 					</ul>
 				</nav>
-				<form action="#" method="get">
+				<div class="user-search">
+					<form action="#" method="get">
 
-					<input type="text" name="search" value="Поиск">	
+						<input type="text" name="search" value="Поиск">	
 
-				</form>
+					</form>
+				</div>
 			</div>
 		</header>
-		<main class="container">
+		<main class="container clearfix">
 			<div class="logo">
 				<img src="img/logo.png">
 			</div>
@@ -32,8 +34,8 @@
 				<a href="#">Главная</a>
 				<a href="#">Сферические товары</a>
 			</div>
-			<section>
-				<h3>Добавление сферического товара</h3>
+			<section class="index-content">
+				<h3 class="index-content-title">Добавление сферического товара</h3>
 				<form action="#" method="get">
 					<label> Наименование <input type="text" name="product_name"></label> 
 					<br><br>
@@ -57,7 +59,7 @@
 			</section>	
 		</main>
 		<footer class="page-footer">
-			<div class="container">
+			<div class="container clearfix">
 				<section class="info">
 					<a href="#">Поиск</a>
 					<a href="#">Карта сайта</a>

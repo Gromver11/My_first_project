@@ -1,0 +1,65 @@
+﻿body {
+	min-width:940px;	
+	background-color:#ffffff;
+	color: #555555;
+	margin: 0;
+	padding: 0;	
+	
+}
+
+.container {
+	width:920px;
+	padding:0 10px;
+	margin: 0 auto;
+}
+
+.main-menu {
+	width:640px;
+	float: left;
+	
+}
+
+.user-search {
+	width:240px;
+	float:right;
+}
+
+.clearfix::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.main-header {
+	margin-bottom:50px;
+}
+
+.logo {
+	height:145px;
+	margin-bottom:35px;
+}
+
+.breadcrumbs{
+	width:320px;
+	margin-bottom:13px;
+}
+
+
+	
+
+.page-footer {
+	margin-top:90px;
+	padding-top: 22px;
+	padding-bottom:70px;
+}
+ 
+.info {
+	float:left;
+	width:200px;
+}
+.copyright {
+	float:right;
+	width:160px;
+}
+
+
