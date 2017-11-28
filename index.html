@@ -1,73 +1,69 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<title>Сферический сайт</title>
-		<link
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">	
-	</head>
-	<body>
-		<header class="main-header">
-			<div class="container clearfix">
-				<nav class="main-menu">
-					<ul>
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Не особо</a></li>
-						<li><a href="#">Вообще нет</a></li>
-						<li><a href="#">Добавление товара</a></li>
-					</ul>
-				</nav>
-				<div class="user-search">
-					<form action="#" method="get">
-
-						<input type="text" name="search" value="Поиск">	
-
-					</form>
-				</div>
-			</div>
-		</header>
-		<main class="container clearfix">
-			<div class="logo">
-				<img src="img/logo.png">
-			</div>
-			<div class="breadcrumbs">
-				<a href="#">Главная</a>
-				<a href="#">Сферические товары</a>
-			</div>
-			<section class="index-content">
-				<h3 class="index-content-title">Добавление сферического товара</h3>
-				<form action="#" method="get">
-					<label> Наименование <input type="text" name="product_name"></label> 
-					<br><br>
-					<label> Код товара <input type="text" name="product_code"></label> 
-					<br><br>
-					<label for="category-id"> Катерия товара </label> 
-					<select type="text" name="product_category" id="category-id"> 
-						<option>Товары сферические вакуумные</option>
-					</select> 
-					<br><br>
-					<input type="checkbox" name="popular_product" id="popular-id" checked>
-					<label for="popular-id"> Популярный товар </label>
-					<br><br>
-					<label for="description-id"> 
-						Описание товара
-					</label> 
-					<textarea name="product_description" id="description-id"></textarea> 
-					<br><br>
-					<button class="btn" type="submit">Добавить</button>
-				</form>	
-			</section>	
-		</main>
-		<footer class="page-footer">
-			<div class="container clearfix">
-				<section class="info">
-					<a href="#">Поиск</a>
-					<a href="#">Карта сайта</a>
-				</section>
-				<section class="copyright">
-				 © Homs & Hooves,2014
-				</section>
-			</div>
-		</footer>		
-	</body>
+  <head>
+    <title>Сферический сайт</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">	
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-menu">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Не&nbsp;особо</a></li>
+            <li><a href="#">Вообще нет</a></li>
+            <li><a href="#">Добавление товара</a></li>
+          </ul>
+        </nav>
+        <div class="user-search">
+          <form action="#" method="get">
+            <input type="text" name="search" value="Поиск">	
+          </form>
+       </div>
+      </div>
+    </header>
+    <main class="container clearfix">
+      <div class="logo">
+        <img src="img/logo.png">
+      </div>
+      <div class="breadcrumbs">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Сферические товары</a></li>
+	</ul>
+      </div>
+      <section class="index-content">
+        <h1 class="index-content-title">Добавление сферического товара</h1>
+        <form action="#" method="get">
+          <label> Наименование <input type="text" name="product_name"></label> 
+          <label> Код товара <input type="text" name="product_code"></label> 
+          <label for="category-id"> Катерия товара </label> 
+          <select type="text" name="product_category" id="category-id"> 
+            <option>Товары сферические вакуумные</option>
+          </select> 
+          <input type="checkbox" name="popular_product" id="popular-id" checked>
+          <label for="popular-id"> Популярный товар </label>
+          <label for="description-id"> 
+            Описание товара
+          </label> 
+          <textarea name="product_description" id="description-id"></textarea> 
+          <button class="btn" type="submit">Добавить</button>
+        </form>
+      </section>	
+    </main>
+    <footer class="page-footer">
+      <div class="container clearfix">
+        <section class="info">
+	  <ul>
+            <li><a href="#">Поиск</a></li>
+            <li><a href="#">Карта сайта</a></li>
+	  </ul>
+        </section>
+        <section class="copyright">
+         &copy;&nbsp;Homs &amp;&nbsp;Hooves,2014
+        </section>
+      </div>
+    </footer>		
+  </body>
 </html>
