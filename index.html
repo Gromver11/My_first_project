@@ -1,100 +1,131 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Сферический сайт</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">	
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container clearfix">
-        <div class="flex">
-          <nav class="main-menu">
-            <ul class="menu-list">
-              <li class="menu-item"><a class="menu-link" href="#">Главная</a></li>
-              <li class="menu-item"><a class="menu-link" href="#">Не&nbsp;особо</a></li>
-              <li class="menu-item"><a class="menu-link" href="#">Вообще нет</a></li>
-              <li class="menu-item"><a class="menu-link active" href="#">Добавление товара</a></li>
-            </ul>
-          </nav>
-          <form action="#" method="get" class="user-search">
-            <input type="text" name="search" placeholder="Поиск" class="user-search-input">
-	    <button type="submit" class="user-search-btn"><span class="visually-hidden">Искать</span></button> 	
-          </form>
-       </div>
-     </div>
-   </header>
-    <main class="container clearfix">
-      <div class="logo clearfix">
-        <img class="logo-img" src="img/logo.png">
-	<div class="logo-text">
-	  <h1 class="logo-title">Сферический сайт
-	    <span class="logo-title-small">в&nbsp;вакууме</span>
-          </h1>
-        </div>
-	<img src="img/line.png">
-      </div>
-      <div class="breadcrumbs">
-        <ul class="breadcrumbs-list">
-          <li class="bc-item"><a class="bc-link" href="#">Главная</a></li>
-          <li class="bc-item"><a class="bc-link" href="#">Сферические товары</a></li>
-        </ul>
-      </div>
-      <section class="index-content">
-        <h2 class="index-content-title">Добавление сферического товара</h2>
-        <form action="#" method="get" class="ap-form clearfix">
-          <dl  class="ap-form-list clearfix">
-	    <dt class="ap-form-item">
-              <label class="form-lb" for="product_name-id">Наменование</label>
-            </dt>
-            <dd class="form-definition">
-              <input class="ap-name-input" type="text" name="product_name" id="product_name-id">
-            </dd>  
-	    <dt class="ap-form-item">
-              <label class="form-lb" for="code-id">Код товара</label>
-	    </dt>
-            <dd class="form-definition">
-              <input class="ap-code-input" type="text" name="product_code" id="code-id">
-            </dd>
-            <dt class="ap-form-item">
-              <label class="form-lb" for="category-id">Категория товара</label>
-            </dt>
-            <dd class="form-definition">
-             <select class="ap-select" type="text" name="product_category" id="category-id">
-               <option>Товары сферические вакуумные</option>
-             </select>
-           </dd>
-	   <dt class="ap-form-item">
-             <input class="ap-input-popular" type="checkbox" name="popular_product" id="popular-id" checked>
-             <label class="form-lb" for="popular-id">Популярный товар</label>
-           </dt>
-           <dt class="ap-form-item">
-             <label class="form-lb" for="description-id">Описание товара</label>
-           </dt>
-           <dd class="form-definition">
-             <textarea class="ap-input-description" name="product_description" id="description-id"></textarea>
-           </dd>
-           <dt class="ap-form-item">
-	     <dd class="form-definition def-btn">
-               <button class="btn" type="submit">Добавить</button>
-             </dd>
-           </dt>
-         </dl>   
+
+<head>
+  <title>Сферический сайт</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="flex">
+        <nav class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="#">Главная</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Не&nbsp;особо</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Вообще нет</a>
+            </li>
+            <li class="menu-item active">
+              <a class="menu-link" href="#">Добавление товара</a>
+            </li>
+          </ul>
+        </nav>
+        <form action="#" method="get" class="user-search">
+          <input type="text" name="search" placeholder="Поиск" class="user-search-input">
+          <button type="submit" class="user-search-btn">
+            <span class="visually-hidden">Искать</span>
+          </button>
         </form>
-      </section>	
-    </main>
-    <footer class="page-footer">
-      <div class="container clearfix">
-        <section class="info">
-	  <ul class="info-list">
-            <li class="info-item"><a class="info-link" href="#">Поиск</a></li>
-            <li class="info-item"><a class="info-link" href="#">Карта сайта</a></li>
-	 </ul>
-       </section>
-       <section class="copyright">
-         &copy;&nbsp;Homs &amp;&nbsp;Hooves, 2014
-       </section>
-     </div>
-   </footer>		
-  </body>
+      </div>
+    </div>
+  </header>
+  <main class="container page">
+    <div class="logo clearfix">
+      <img class="logo-img" src="img/logo.png" alt="Logo">
+      <div class="logo-text">
+        <h1 class="logo-title">Сферический сайт
+          <span class="logo-title-small">в&nbsp;вакууме</span>
+        </h1>
+      </div>
+    </div>
+    <div class="breadcrumbs">
+      <ul class="breadcrumbs-list">
+        <li class="bc-item">
+          <a class="bc-link" href="#">Главная</a>
+        </li>
+        <li class="bc-item">
+          <a class="bc-link" href="#">Сферические товары</a>
+        </li>
+      </ul>
+    </div>
+    <section class="index-content">
+      <h2 class="index-content-title">Добавление сферического товара</h2>
+      <form action="#" method="get" class="ap-form clearfix">
+        <dl class="table-row">
+          <dt class="first-cell">
+            <label class="form-lb" for="product_name-id">Наменование</label>
+          </dt>
+          <dd class="second-cell">
+            <input class="identical-input input-name" type="text" name="product_name" id="product_name-id">
+          </dd>
+        </dl>
+        <dl class="table-row">
+          <dt class="first-cell">
+            <label class="form-lb" for="code-id">Код товара</label>
+          </dt>
+          <dd class="second-cell">
+            <input class="identical-input input-code" type="text" name="product_code" id="code-id">
+          </dd>
+        </dl>
+        <dl class="table-row">
+          <dt class="first-cell">
+            <label class="form-lb" for="category-id">Категория товара</label>
+          </dt>
+          <dd class="second-cell">
+            <select class="identical-input input-category" name="product_category" id="category-id">
+              <option>Товары сферические вакуумные</option>
+            </select>
+          </dd>
+        </dl>
+        <dl class="table-row">
+          <dt class="first-cell">
+            <input class="input-popular" type="checkbox" name="popular_product" id="popular-id" checked>
+            <label class="form-lb" for="popular-id">Популярный товар</label>
+          </dt>
+          <dd class="second-cell"></dd>
+        </dl>
+        <dl class="table-row">
+          <dt class="first-cell">
+            <label class="form-lb" for="description-id">Описание товара</label>
+          </dt>
+          <dd class="second-cell">
+            <textarea class="identical-input input-description" name="product_description" id="description-id"></textarea>
+          </dd>
+        </dl>
+        <dl class="table-row">
+          <dt class="first-cell"></dt>
+          <dd class="second-cell">
+            <button class="btn" type="submit">Добавить</button>
+          </dd>
+        </dl>
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container clearfix">
+      <section class="info">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="#">Поиск</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#">Карта сайта</a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright">
+        &copy;&nbsp;Homs &amp;&nbsp;Hooves, 2014
+      </section>
+    </div>
+  </footer>
+</body>
+
 </html>
