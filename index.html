@@ -11,7 +11,7 @@
 <body>
   <header class="main-header">
     <div class="container clearfix">
-      <div class="flex">
+      <div class="header-elements">
         <nav class="main-menu">
           <ul class="menu-list">
             <li class="menu-item">
@@ -60,49 +60,49 @@
       <h2 class="index-content-title">Добавление сферического товара</h2>
       <form action="#" method="get" class="ap-form clearfix">
         <dl class="table-row">
-          <dt class="first-cell">
+          <dt class="label-cell">
             <label class="form-lb" for="product_name-id">Наменование</label>
           </dt>
-          <dd class="second-cell">
+          <dd class="content-cell">
             <input class="identical-input input-name" type="text" name="product_name" id="product_name-id">
           </dd>
         </dl>
         <dl class="table-row">
-          <dt class="first-cell">
+          <dt class="label-cell">
             <label class="form-lb" for="code-id">Код товара</label>
           </dt>
-          <dd class="second-cell">
+          <dd class="content-cell">
             <input class="identical-input input-code" type="text" name="product_code" id="code-id">
           </dd>
         </dl>
         <dl class="table-row">
-          <dt class="first-cell">
+          <dt class="label-cell">
             <label class="form-lb" for="category-id">Категория товара</label>
           </dt>
-          <dd class="second-cell">
-            <select class="identical-input input-category" name="product_category" id="category-id">
+          <dd class="content-cell">
+            <select class="identical-input input-special" name="product_category" id="category-id">
               <option>Товары сферические вакуумные</option>
             </select>
           </dd>
         </dl>
         <dl class="table-row">
-          <dt class="first-cell">
+          <dt class="label-cell">
             <input class="input-popular" type="checkbox" name="popular_product" id="popular-id" checked>
             <label class="form-lb" for="popular-id">Популярный товар</label>
           </dt>
-          <dd class="second-cell"></dd>
+          <dd class="content-cell"></dd>
         </dl>
         <dl class="table-row">
-          <dt class="first-cell">
+          <dt class="label-cell label-description">
             <label class="form-lb" for="description-id">Описание товара</label>
           </dt>
-          <dd class="second-cell">
+          <dd class="content-cell">
             <textarea class="identical-input input-description" name="product_description" id="description-id"></textarea>
           </dd>
         </dl>
         <dl class="table-row">
-          <dt class="first-cell"></dt>
-          <dd class="second-cell">
+          <dt class="label-cell"></dt>
+          <dd class="content-cell">
             <button class="btn" type="submit">Добавить</button>
           </dd>
         </dl>
