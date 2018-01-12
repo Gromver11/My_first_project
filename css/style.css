@@ -80,12 +80,9 @@ body {
     outline: 0;
     -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
     box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
-    padding: 12px 30px 8px 10px;
+    padding: 8px 30px 8px 10px;
     line-height: 1.5;
-    width: 220px;
-    height: 30px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    width: 180px;
 }
 
 .user-search-input::-webkit-input-placeholder {
@@ -293,6 +290,7 @@ body {
     resize: vertical;
     min-height: 165px;
     padding: 6px 11px;
+    overflow: auto; /*Для скролов в IE*/
 }
 
 .btn {
