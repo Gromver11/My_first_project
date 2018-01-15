@@ -1,0 +1,23 @@
+{
+  "name": "My_first_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server --files css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gromver11/My_first_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gromver11/My_first_project/issues"
+  },
+  "homepage": "https://github.com/Gromver11/My_first_project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.1"
+  }
+}
